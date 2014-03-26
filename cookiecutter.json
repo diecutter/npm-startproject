@@ -1,0 +1,8 @@
+{
+  "author_name": "Rémy Hubscher",
+  "author_email": "natim@mozilla.com",
+  "homepage": "https://github.com/organization/project",
+  "project_description": "My NPM Project",
+  "repo_name": "my-npm-project",
+  "version": "0.1.0-DEV"
+}

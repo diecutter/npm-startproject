@@ -1,0 +1,22 @@
+{
+  "name": "{{ cookiecutter.repo_name }}",
+  "description": "{{ cookiecutter.project_description }}",
+  "version": "{{ cookiecutter.version }}",
+  "author": "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>",
+  "homepage": "{{ cookiecutter.homepage }}",
+  "license" : "BSD",
+  "repository": {
+    "type": "git",
+    "url": "{{ cookiecutter.homepage }}.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
